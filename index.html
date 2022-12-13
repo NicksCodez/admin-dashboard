@@ -5,13 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Admin Dashboard</title>
 </head>
 <body>
     <div id="container">
         <div id="sidebar">
-            <div class="logo"><span>Dashboard</span></div>
-            <ul class="general-menus">
+            <div class="sidebar-title">
+                <img src="./assets/svg/dashboard.svg" alt="dashboard icon" class="dashboard-logo">
+                <div class="dashboard-text">Dashboard</div>
+            </div>
+            <div class="general-menus">
+                <img src="./assets/svg/home.svg" alt="home icon">
+                <span>Home</span>
+                <img src="/assets/svg/profile.svg" alt="profile icon">
+                <span>Profile</span>
+                <img src="./assets/svg/message.svg" alt="message icon">
+                <span>Messages</span>
+                <img src="./assets/svg/history.svg" alt="history icon">
+                <span>History</span>
+                <img src="./assets/svg/tasks.svg" alt="tasks icon">
+                <span>Tasks</span>
+                <img src="./assets/svg/communities.svg" alt="communities icon">
+                <span>Communities</span>
+            </div>
+            <div class="special-menus">
+                <img src="./assets/svg/settings.svg" alt="settings icon">
+                <span>Settings</span>
+                <img src="./assets/svg/support.svg" alt="support icon">
+                <span>Support</span>
+                <img src="./assets/svg/privacy.svg" alt="privacy icon">
+                <span>Privacy</span>
+            </div>
+            <!-- <ul class="general-menus-text">
                 <li><span>Home</span></li>
                 <li><span>Profile</span></li>
                 <li><span>Messages</span></li>
@@ -19,11 +45,11 @@
                 <li><span>Tasks</span></li>
                 <li><span>Communities</span></li>
             </ul>
-            <ul class="special-menus">
+            <ul class="special-menus-text">
                 <li><span>Settings</span></li>
                 <li><span>Support</span></li>
                 <li><span>Privacy</span></li>
-            </ul>
+            </ul> -->
         </div>
         <div id="header">
             <div class="header-top">
@@ -63,9 +89,9 @@
                     <div class="project-title">Super Cool Project</div>
                     <div class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, quos totam illo qui praesentium mollitia.</div>
                     <div class="project-links">
-                        <button class="add-favourite" type="button"></button>
-                        <button class="view-project" type="button"></button>
-                        <button class="view-git" type="button"></button>
+                        <input type="image" src="./assets/svg/star.svg" class="add-favourite">
+                        <input type="image" src="./assets/svg/eye.svg" class="view-project">
+                        <input type="image" src="./assets/svg/fork.svg" class="view-git">
                     </div>
                 </div>
                 <div class="project">
@@ -73,9 +99,9 @@
                     <div class="project-title">Less Cool Project</div>
                     <div class="project-description">Sequi magnam in aperiam expedita quam quis aliquid veniam, eveniet ipsam sit, tenetur aspernatur consectetur!</div>
                     <div class="project-links">
-                        <button class="add-favourite" type="button"></button>
-                        <button class="view-project" type="button"></button>
-                        <button class="view-git" type="button"></button>
+                        <input type="image" src="./assets/svg/star.svg" class="add-favourite">
+                        <input type="image" src="./assets/svg/eye.svg" class="view-project">
+                        <input type="image" src="./assets/svg/fork.svg" class="view-git">
                     </div>
                 </div>
                 <div class="project">
@@ -83,9 +109,9 @@
                     <div class="project-title">Impossible App</div>
                     <div class="project-description">Maiores eos, omnis vero accusantium nisi quibusdam, et, cumque iure natus nobis optio ipsa animi?</div>
                     <div class="project-links">
-                        <button class="add-favourite" type="button"></button>
-                        <button class="view-project" type="button"></button>
-                        <button class="view-git" type="button"></button>
+                        <input type="image" src="./assets/svg/star.svg" class="add-favourite">
+                        <input type="image" src="./assets/svg/eye.svg" class="view-project">
+                        <input type="image" src="./assets/svg/fork.svg" class="view-git">
                     </div>
                 </div>
                 <div class="project">
@@ -93,9 +119,9 @@
                     <div class="project-title">Easy Peasy App</div>
                     <div class="project-description">Laudantium expedita nisi, blanditiis optio nihil iste dolores praesentium amet maxime debitis quibusdam, repellendus similique.</div>
                     <div class="project-links">
-                        <button class="add-favourite" type="button"></button>
-                        <button class="view-project" type="button"></button>
-                        <button class="view-git" type="button"></button>
+                        <input type="image" src="./assets/svg/star.svg" class="add-favourite">
+                        <input type="image" src="./assets/svg/eye.svg" class="view-project">
+                        <input type="image" src="./assets/svg/fork.svg" class="view-git">
                     </div>
                 </div>
                 <div class="project">
@@ -103,9 +129,9 @@
                     <div class="project-title">Ad Blocker</div>
                     <div class="project-description">Quidem accusamus delectus iusto ducimus. Hic, velit quisquam? Soluta quaerat, ullam vel quibusdam autem laborum.</div>
                     <div class="project-links">
-                        <button class="add-favourite" type="button"></button>
-                        <button class="view-project" type="button"></button>
-                        <button class="view-git" type="button"></button>
+                        <input type="image" src="./assets/svg/star.svg" class="add-favourite">
+                        <input type="image" src="./assets/svg/eye.svg" class="view-project">
+                        <input type="image" src="./assets/svg/fork.svg" class="view-git">
                     </div>
                 </div>
                 <div class="project">
@@ -113,9 +139,9 @@
                     <div class="project-title">Money Maker</div>
                     <div class="project-description">Maxime, doloribus voluptatem aut atque fugit qui nisi eum placeat quasi exercitationem vero quidem dignissimos!</div>
                     <div class="project-links">
-                        <button class="add-favourite" type="button"></button>
-                        <button class="view-project" type="button"></button>
-                        <button class="view-git" type="button"></button>
+                        <input type="image" src="./assets/svg/star.svg" class="add-favourite">
+                        <input type="image" src="./assets/svg/eye.svg" class="view-project">
+                        <input type="image" src="./assets/svg/fork.svg" class="view-git">
                     </div>
                 </div>
             </div>
